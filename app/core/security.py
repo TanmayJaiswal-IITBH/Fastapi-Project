@@ -6,11 +6,11 @@ def create_token(data : dict, expiry_minutes = 30):
     to_encode = data.copy()
     expire = datetime.now(timezone.utc) + timedelta(minutes=expiry_minutes)
     to_encode.update({'exp' : expire})
-    return jwt.encode(to_encode, settings.JWT_SECRET_KEY, algorithm=settings.JWT_ALGORITHM)
+    return jwt.encode(to_encode, settings.JWT_SECRET_KEY, algorithm=settings.JWT_ALGORITHM) # type: ignore
 
 def verify_token(token : str):
     try:
-        payload = jwt.decode(token, settings.JWT_SECRET_KEY, algorithms=settings.JWT_ALGORITHM)
+        payload = jwt.decode(token, settings.JWT_SECRET_KEY, algorithms=settings.JWT_ALGORITHM) # type: ignore
         return payload
     except JOSEError:
         return None
