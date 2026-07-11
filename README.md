@@ -92,5 +92,5 @@ Made with ❤️ by Tanmay
 ## 😇 Connect
 
 Feel free to connect:
-- [Email](jaiswaltanmay318@gmail.com)
-- [LinkedIN](www.linkedin.com/in/tanmayjaiswal01/)
+- [Email](mailto:jaiswaltanmay318@gmail.com)
+- [LinkedIN](https://www.linkedin.com/in/tanmayjaiswal01/)
