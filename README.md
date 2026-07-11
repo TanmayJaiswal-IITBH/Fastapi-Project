@@ -93,4 +93,4 @@ Made with ❤️ by Tanmay
 
 Feel free to connect:
 - [Email](jaiswaltanmay318@gmail.com)
-- [LinkedIN](www.linkedin.com/in/tanmayjaiswal01)
+- [LinkedIN](www.linkedin.com/in/tanmayjaiswal01/)
